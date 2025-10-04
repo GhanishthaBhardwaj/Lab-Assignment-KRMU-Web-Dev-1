@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <a href="#maincontent" class="skip-link">Skip to main content</a>
+    <header>
+         <h1>Ghanishtha Bhardwaj</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="#about"> About Myself</a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    </nav>
+    <main>
+        <main id="maincontent"></main>
+        <article>
+            <h2>Welcome to My Portfolio</h2>
+             <p>Hello! I'm <b>Ghanishtha Bhardwaj</b>, a passionate first-year B.Tech CSE (AI & ML) student at KR Mangalam University.  
+                I love exploring the world of programming, AI, and web technologies — and this portfolio is where I share my journey, learning, and projects as I grow as a developer.</p>
+        </article>
+        <section id="about">
+            <h2>Myself</h2>
+            <img src="MY PHOTO.jpeg.jpg" alt="My Picture" height="200" width="200">
+            <p>Here are some beginner-level projects I’ve built while learning Python and web development. Each project helped practice
+                real-world coding concepts and problem-solving.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p> Here is the list of projects I made with github link attached.</p>
+            <ul>
+                <li><b>Online Shopping Checkout Sysytem:</b>An online shopping checkout system built in Python to demonstrate a step-by-step checkout flow with payment confirmation.<a href="https://github.com/GhanishthaBhardwaj/Online-Shopping-Checkout">Online Checkout system</a></li>
+                <li><b>My Blog:</b>This is a basic HTML blog project.  
+                It was created to practice web designing and understand how different HTML tags work together.
+                <a href="https://github.com/GhanishthaBhardwaj/Web-Dev-1/blob/main/Lab%203/lab%203%20que%203.html">My Blog</a></li>
+                <li><b>Form:</b>A simple form created using HTML.  
+                It includes input fields like name, email, and message to understand how forms work in web pages.
+                .<a href="https://github.com/GhanishthaBhardwaj/Web-Dev-1/blob/main/Lab%203/lab%203%20que%202.html">Form</a></li>
+                   
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+    <table border ="1" height="200" width="200" cellpadding="5" cellspacing="5" >
+        <thead>
+        <tr>
+            <th> SKILLS</th>
+            <th> LEVEL</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>HTML</td>
+            <td>beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>beginner</td>
+        </tr>
+        <tr>
+
+            <td>Python</td>
+            <td>learning</td>
+        </tr>
+        </tbody>
+    </table>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+        <form action="method">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name"
+               required minlength="3" maxlength="30"
+               pattern="[A-Za-z ]+"
+               title="Name should contain only letters.">
+                   <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+        <label for="mobile">Mobile:</label>
+        <input type="number"name="" id="mobile" pattern="\d[6-9]{1}[0-9]{9}"
+        title="Enter a valid mobile number starting from 6-9">
+                   <br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"rows="5" cols="30" placeholder="Write your feedback here..." required></textarea>
+                   <br><br>
+        <button type="submit">submit</button>
+        </form>
+        </main>
+        <footer>
+            <h4>2025; My Portfolio.All Rights Reserved</h4>
+        </footer>
+    
+</body>
+</html>
