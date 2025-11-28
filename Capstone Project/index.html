@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify – Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Learnify</div>
+            <div class="nav-search">
+                <input type="text" placeholder="Search courses, topics...">
+            </div>
+            <div class="nav-actions">
+                <button class="login">Login</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <section id="about" class="hero">
+        <div class="container">
+            <h1>Unlock Your Potential with Online Learning</h1>
+            <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime, anywhere.</p>
+            <div class="hero-cta">
+                <input type="text" placeholder="What do you want to learn?">
+                <button>Find Courses</button>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <h2>Popular Categories</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-icon">💻</div>
+                <div class="category-title">Development</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🎨</div>
+                <div class="category-title">Design</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">📊</div>
+                <div class="category-title">Business</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🗣</div>
+                <div class="category-title">Languages</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">📚</div>
+                <div class="category-title">Academics</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🎵</div>
+                <div class="category-title">Music</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🔔</div>
+                <div class="category-title">Lifestyle</div>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">🧪</div>
+                <div class="category-title">Science</div>
+            </div>
+        </div>
+    </section>
+    <section id="courses" class="courses-section container">
+        <div class="courses-header">
+            <h2>Featured Courses</h2>
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="level">Level:</label>
+                    <select id="level">
+                        <option>All</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price">Price:</label>
+                    <select id="price">
+                        <option>All</option>
+                        <option>Free</option>
+                        <option>Paid</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="cert">Certificate</label>
+                    <input type="checkbox" id="cert">
+                </div>
+            </div>
+        </div>
+        <div class="courses-grid">
+            <div class="course-card">
+                <img src="bootcampimages.jpg" class="course-img" alt="Web development bootcamp">
+                <div class="course-content">
+                    <div class="course-title">Modern Web Development Bootcamp</div>
+                    <div class="course-rating">⭐⭐⭐⭐⭐</div>
+                    <div class="course-price">$49.99</div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="graphic.jpg" class="course-img" alt="Graphic design course">
+                <div class="course-content">
+                    <div class="course-title">Graphic Design Masterclass</div>
+                    <div class="course-rating">⭐⭐⭐⭐☆</div>
+                    <div class="course-price">$39.99</div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="businessimages.jpg" class="course-img" alt="Business analytics course">
+                <div class="course-content">
+                    <div class="course-title">Business Analytics Fundamentals</div>
+                    <div class="course-rating">⭐⭐⭐⭐⭐</div>
+                    <div class="course-price">$29.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="instructors" class="instructors-section">
+        <h2>Top Instructors</h2>
+        <div class="instructors-grid">
+            <div class="instructor-card">
+                <img src="instructure 1.jpg" class="instructor-img" alt="Sarah Johnson">
+                <div class="instructor-name">Sarah Johnson</div>
+                <div class="instructor-role">Senior Developer</div>
+                <p class="instructor-bio">Expert in full-stack development with 10+ years of experience.</p>
+            </div>
+            <div class="instructor-card">
+                <img src="instructure 2.jpg" class="instructor-img" alt="Michael Lee">
+                <div class="instructor-name">Michael Lee</div>
+                <div class="instructor-role">UI/UX Designer</div>
+                <p class="instructor-bio">Designing intuitive user experiences for leading brands.</p>
+            </div>
+            <div class="instructor-card">
+                <img src="instructure 3.jpg" class="instructor-img" alt="Emily Clark">
+                <div class="instructor-name">Emily Clark</div>
+                <div class="instructor-role">Business Analyst</div>
+                <p class="instructor-bio">Helping learners master business and analytics fundamentals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Learners Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-user">
+                    <img src="testimonal.jpg" class="testimonial-img" alt="Alex Morgan">
+                    <div>
+                        <div class="testimonial-name">Alex Morgan</div>
+                        <div class="testimonial-role">Web Developer</div>
+                    </div>
+                </div>
+                <p class="testimonial-text">Amazing courses! I learned modern web development skills that helped me land a job.</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-user">
+                    <img src="testimonal 2.jpg" class="testimonial-img" alt="Jessica Kim">
+                    <div>
+                        <div class="testimonial-name">Jessica Kim</div>
+                        <div class="testimonial-role">Designer</div>
+                    </div>
+                </div>
+                <p class="testimonial-text">The design masterclass was exactly what I needed to improve my portfolio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <h2>Latest from the Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="blog img 1.jpg" class="blog-img" alt="How to start learning code">
+                <div class="blog-content">
+                    <div class="blog-title">How to Start Learning Code in 2025</div>
+                    <div class="blog-meta">March 5, 2025 · 5 min read</div>
+                    <div class="blog-excerpt">New to coding? This guide walks you through essential steps...</div>
+                    <a class="blog-readmore" href="javascript:void(0)">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="blog img 2.jpg" class="blog-img" alt="Top 10 design tools">
+                <div class="blog-content">
+                    <div class="blog-title">Top 10 Design Tools for Creatives</div>
+                    <div class="blog-meta">March 1, 2025 · 6 min read</div>
+                    <div class="blog-excerpt">Design trends constantly change. Here are the must-have tools...</div>
+                    <a class="blog-readmore" href="javascript:void(0)">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="help" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <details>
+                <summary>How do I enroll in a course?</summary>
+                <p>Simply create an account, browse courses, and click "Enroll".</p>
+            </details>
+            <details>
+                <summary>Can I get a certificate?</summary>
+                <p>Yes, many courses include a downloadable certificate after completion.</p>
+            </details>
+            <details>
+                <summary>Are there free courses?</summary>
+                <p>We offer many free and paid courses for all learning levels.</p>
+            </details>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for new courses, updates, and discounts.</p>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="footer-logo">Learnify</div>
+                <p>Empowering learners worldwide with high-quality online education.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Platform</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#help">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul class="footer-social">
+                    <li><a href="#">🌐</a></li>
+                    <li><a href="#">🐦</a></li>
+                    <li><a href="#">📘</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2025 Learnify. All rights reserved.</div>
+    </footer>
+
+</body>
+</html>
